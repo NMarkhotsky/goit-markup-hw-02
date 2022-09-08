@@ -14,11 +14,14 @@
 
 body {
   font-family: var(--main-font);
+  background-color: var(--main-bgd-color);
   color: var(--main-color);
 }
 
 /* Шапка */
-
+.page-header {
+  background-color: var(--header-bgd-color);
+}
 .logo {
   font-family: var(--accent-font);
   font-size: 26px;
@@ -73,6 +76,7 @@ body {
 }
 
 .btn {
+    
 }
 
 /* Особливості */
@@ -106,7 +110,9 @@ body {
 }
 
 /* Наша команда */
-
+.team {
+  background-color: var(--secondary-bgd-color);
+}
 .team-list {
   list-style: none;
   line-height: 1.19;
@@ -144,9 +150,8 @@ body {
 .address-link {
   text-decoration: none;
   color: var(--secondary-color);
-  
 }
 
 .contact {
-    color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
