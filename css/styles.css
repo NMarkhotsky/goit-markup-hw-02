@@ -4,6 +4,10 @@
   --secondary-color: #ffffff;
   --accent-color: #2196f3;
   --accent-color-2: #000000;
+  --header-bgd-color: #ffffff;
+  --main-bgd-color: #f5f5f5;
+  --secondary-bgd-color: #f5f4fa;
+  --footer-bgd-color: #2f303a;
   --main-font: Roboto, sans-serif;
   --accent-font: Raleway, sans-serif;
 }
@@ -23,7 +27,7 @@ body {
   color: var(--accent-color);
   text-decoration: none;
 }
-.logo > .studio {
+.studio {
   color: var(--accent-color-2);
 }
 
@@ -54,3 +58,95 @@ body {
 }
 
 /* Герой */
+.hero {
+  text-align: center;
+  background-color: var(--footer-bgd-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.btn {
+}
+
+/* Особливості */
+
+.features-list {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  list-style: none;
+}
+
+.features-title {
+  line-height: 1.14;
+}
+
+.features-text {
+  line-height: 1.71;
+  color: var(--primary-color);
+}
+
+/* Чим ми займаємося */
+
+.work-title,
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.work-list {
+  list-style: none;
+}
+
+/* Наша команда */
+
+.team-list {
+  list-style: none;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+/* Футер */
+.footer {
+  background-color: var(--footer-bgd-color);
+}
+.logo > .studio-footer {
+  color: var(--secondary-color);
+}
+
+.address {
+}
+
+.address-list {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  list-style: none;
+}
+
+.address-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  
+}
+
+.contact {
+    color: rgba(255, 255, 255, 0.6);
+}
