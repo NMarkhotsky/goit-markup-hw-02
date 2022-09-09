@@ -62,7 +62,6 @@ body {
 
 /* Герой */
 .hero {
-  text-align: center;
   background-color: var(--footer-bgd-color);
 }
 
