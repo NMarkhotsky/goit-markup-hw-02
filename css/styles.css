@@ -14,22 +14,27 @@
 
 body {
   font-family: var(--main-font);
+  letter-spacing: 0.03em;
+
   background-color: var(--main-bgd-color);
   color: var(--main-color);
 }
 
 /* Шапка */
+
 .page-header {
   background-color: var(--header-bgd-color);
 }
+
 .logo {
   font-family: var(--accent-font);
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
   text-decoration: none;
+
+  color: var(--accent-color);
 }
+
 .studio {
   color: var(--accent-color-2);
 }
@@ -60,7 +65,12 @@ body {
   color: var(--accent-color);
 }
 
+.nav-list .nav-item.current {
+  color: var(--accent-color);
+}
+
 /* Герой */
+
 .hero {
   background-color: var(--footer-bgd-color);
 }
@@ -71,37 +81,37 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   color: var(--secondary-color);
 }
 
 .btn {
-    
 }
 
 /* Особливості */
 
 .features-list {
-  font-size: 14px;
-  letter-spacing: 0.03em;
   list-style: none;
 }
 
 .features-title {
+  font-size: 14px;
   line-height: 1.14;
 }
 
 .features-text {
+  font-size: 14px;
   line-height: 1.71;
+
   color: var(--primary-color);
 }
 
 /* Чим ми займаємося */
 
-.work-title,
-.team-title {
+.title,
+.title {
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 
 .work-list {
@@ -109,21 +119,24 @@ body {
 }
 
 /* Наша команда */
+
 .team {
   background-color: var(--secondary-bgd-color);
 }
+
 .team-list {
   list-style: none;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
 }
+
 .team-text {
-  font-weight: 400;
   font-size: 16px;
+
   color: var(--primary-color);
 }
 
@@ -131,26 +144,29 @@ body {
 .footer {
   background-color: var(--footer-bgd-color);
 }
+
 .logo > .studio-footer {
   color: var(--secondary-color);
-}
-
-.address {
 }
 
 .address-list {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   font-style: normal;
   list-style: none;
 }
 
 .address-link {
   text-decoration: none;
+
   color: var(--secondary-color);
 }
 
 .contact {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
 }
