@@ -48,24 +48,24 @@ body {
   list-style: none;
 }
 
-.nav-item {
+.nav-link {
   color: var(--main-color);
   text-decoration: none;
 }
 
-.contact-item {
+.contact-link {
   color: var(--primary-color);
   text-decoration: none;
 }
 
-.nav-item:hover,
-.nav-item:focus,
-.contact-item:hover,
-.contact-item:focus {
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-color);
 }
 
-.nav-list .nav-item.current {
+.nav-list .nav-link.current {
   color: var(--accent-color);
 }
 
@@ -108,7 +108,6 @@ body {
 
 /* Чим ми займаємося */
 
-.title,
 .title {
   font-size: 36px;
   line-height: 1.17;
