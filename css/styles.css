@@ -14,6 +14,7 @@
 
 body {
   font-family: var(--main-font);
+  font-size: 14px;
   letter-spacing: 0.03em;
 
   background-color: var(--main-bgd-color);
@@ -30,7 +31,6 @@ body {
   font-family: var(--accent-font);
   font-size: 26px;
   line-height: 1.19;
-  text-decoration: none;
 
   color: var(--accent-color);
 }
@@ -39,36 +39,41 @@ body {
   color: var(--accent-color-2);
 }
 
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
 .nav-list,
 .contact-list {
-  font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  list-style: none;
 }
 
 .nav-link {
   color: var(--main-color);
-  text-decoration: none;
 }
 
 .contact-link {
   color: var(--primary-color);
-  text-decoration: none;
 }
 
 .nav-link:hover,
 .nav-link:focus,
 .contact-link:hover,
-.contact-link:focus {
+.contact-link:focus,
+.nav-list .nav-link.current {
   color: var(--accent-color);
 }
 
 /* Герой */
 
 .hero {
-  background-color: var(--footer-bgd-color);
+  background-color: var(--footer-bgd-color); /* Тимчасовий фон */
 }
 
 .hero-title {
@@ -77,18 +82,28 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
 
   color: var(--secondary-color);
 }
 
-.btn {
+.button {
+  border-radius: 4px;
+  min-width: 152px;
+  padding: 10px 32px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  background-color: var(--accent-color);
+  color: var(--header-bgd-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* Особливості */
-
-.features-list {
-  list-style: none;
-}
 
 .features-title {
   font-size: 14px;
@@ -96,7 +111,6 @@ body {
 }
 
 .features-text {
-  font-size: 14px;
   line-height: 1.71;
 
   color: var(--primary-color);
@@ -107,10 +121,7 @@ body {
 .title {
   font-size: 36px;
   line-height: 1.17;
-}
-
-.work-list {
-  list-style: none;
+  text-align: center;
 }
 
 /* Наша команда */
@@ -120,7 +131,6 @@ body {
 }
 
 .team-list {
-  list-style: none;
   line-height: 1.19;
 }
 
@@ -145,23 +155,18 @@ body {
 }
 
 .address-list {
-  font-size: 14px;
-  line-height: 1.71;
   font-style: normal;
-  list-style: none;
+  line-height: 1.71;
 }
 
 .address-link {
-  text-decoration: none;
-
   color: var(--secondary-color);
 }
 
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
 .contact {
   color: rgba(255, 255, 255, 0.6);
-}
-
-.contact:hover,
-.contact:focus {
-  color: var(--accent-color);
 }
