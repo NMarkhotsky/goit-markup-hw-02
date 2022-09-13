@@ -32,6 +32,7 @@ body {
   font-family: var(--accent-font);
   font-size: 26px;
   line-height: 1.19;
+
 }
 
 .studio {
@@ -109,6 +110,9 @@ body {
 }
 
 /* Особливості */
+.none-title {
+  display: none;
+}
 
 .features-title {
   font-size: 14px;
