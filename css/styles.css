@@ -18,7 +18,6 @@ body {
 
   font-family: var(--main-font);
   font-size: 14px;
-  letter-spacing: 0.03em;
 }
 
 /* Шапка */
@@ -32,6 +31,7 @@ body {
   font-family: var(--accent-font);
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .studio {
@@ -116,12 +116,14 @@ body {
 .features-title {
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 .features-text {
   color: var(--primary-color);
 
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* Чим ми займаємося */
@@ -129,6 +131,8 @@ body {
 .title {
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+
   text-align: center;
 }
 
@@ -145,12 +149,14 @@ body {
 .team-name {
   font-weight: 500;
   font-size: 16px;
+  letter-spacing: 0.03em;
 }
 
 .team-text {
   color: var(--primary-color);
 
   font-size: 16px;
+  letter-spacing: 0.03em;
 }
 
 /* Футер */
@@ -166,6 +172,7 @@ body {
 .address-list {
   font-style: normal;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .address-link {
@@ -227,4 +234,5 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
 }
